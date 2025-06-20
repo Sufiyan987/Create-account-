@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Account Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f2f2;
+        }
+        .container {
+            width: 800px;
+            height: 500px;
+            background-color: white;
+            margin: 100px auto;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            display: flex;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .left-panel {
+            width: 50%;
+            background-color: #fafafa;
+            padding: 50px 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .left-panel h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        .left-panel p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 40px;
+        }
+        .left-panel button {
+            padding: 12px 30px;
+            font-size: 14px;
+            border: none;
+            background: linear-gradient(to right, #3f8efc, #256bfa);
+            color: white;
+            border-radius: 25px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            cursor: pointer;
+        }
+        .right-panel {
+            width: 50%;
+            background-color: #fdfdfd;
+            padding: 50px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .right-panel h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .social-icons a {
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 20px;
+            color: #555;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 30px;
+            font-size: 14px;
+            background-color: #f9f9f9;
+            outline: none;
+        }
+        .right-panel button {
+            padding: 12px 30px;
+            font-size: 14px;
+            border: none;
+            background: linear-gradient(to right, #3f8efc, #256bfa);
+            color: white;
+            border-radius: 25px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="left-panel">
+        <h2>Welcome Back !</h2>
+        <p>To keep connected with us please login with your personal info</p>
+        <button>SIGN IN</button>
+    </div>
+    <div class="right-panel">
+        <h2>Create Account</h2>
+        <div class="social-icons">
+            <a href="#">&#xf09a;</a> <!-- Facebook -->
+            <a href="#">&#xf0e1;</a> <!-- LinkedIn -->
+            <a href="#">&#xf099;</a> <!-- Twitter -->
+        </div>
+        <p style="text-align: center; color: #999;">or use email for registration</p>
+        <div class="form-group">
+            <input type="text" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <input type="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <input type="password" placeholder="Password">
+        </div>
+        <button>SIGN UP</button>
+    </div>
+</div>
+
+</body>
+</html>
